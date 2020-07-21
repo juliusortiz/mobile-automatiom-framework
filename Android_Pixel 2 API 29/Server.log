@@ -1,0 +1,394 @@
+2020-07-21 12:33:44:223 [Appium] Welcome to Appium v1.18.0
+2020-07-21 12:33:44:224 [Appium] Non-default server args:
+2020-07-21 12:33:44:225 [Appium]   port: 32706
+2020-07-21 12:33:44:225 [Appium]   sessionOverride: true
+2020-07-21 12:33:44:226 [Appium]   logFile: C:\xampp\htdocs\mobile-automation-framework\Android_Pixel 2 API 29\Server.log
+2020-07-21 12:33:44:248 [Appium] Appium REST http interface listener started on 0.0.0.0:32706
+2020-07-21 12:33:44:417 [HTTP] --> GET /wd/hub/status
+2020-07-21 12:33:44:417 [HTTP] {}
+2020-07-21 12:33:44:419 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-07-21 12:33:44:421 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.18.0"}}
+2020-07-21 12:33:44:425 [HTTP] <-- GET /wd/hub/status 200 7 ms - 68
+2020-07-21 12:33:44:426 [HTTP] 
+2020-07-21 12:33:44:429 [HTTP] --> GET /wd/hub/status
+2020-07-21 12:33:44:429 [HTTP] {}
+2020-07-21 12:33:44:429 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-07-21 12:33:44:430 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.18.0"}}
+2020-07-21 12:33:44:431 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2020-07-21 12:33:44:431 [HTTP] 
+2020-07-21 12:33:44:963 [HTTP] --> POST /wd/hub/session
+2020-07-21 12:33:44:963 [HTTP] {"desiredCapabilities":{"app":"C:\\xampp\\htdocs\\mobile-automation-framework\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.3.0.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11002","platformName":"Android","udid":"emulator-5554","deviceName":"Pixel 2 API 29","systemPort":"10002"},"capabilities":{"firstMatch":[{"appium:app":"C:\\xampp\\htdocs\\mobile-automation-framework\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.3.0.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11002","appium:deviceName":"Pixel 2 API 29","platformName":"android","appium:systemPort":"10002","appium:udid":"emulator-5554"}]}}
+2020-07-21 12:33:44:964 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\xampp\\htdocs\\mobile-automation-framework\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.3.0.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11002","platformName":"Android","udid":"emulator-5554","deviceName":"Pixel 2 API 29","systemPort":"10002"},null,{"firstMatch":[{"appium:app":"C:\\xampp\\htdocs\\mobile-automation-framework\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.3.0.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11002","appium:deviceName":"Pixel 2 API 29","platformName":"android","appium:systemPort":"10002","appium:udid":"emulator-5554"}]}]
+2020-07-21 12:33:44:965 [BaseDriver] Event 'newSessionRequested' logged at 1595334824964 (20:33:44 GMT+0800 (Philippine Standard Time))
+2020-07-21 12:33:44:967 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2020-07-21 12:33:44:967 [BaseDriver]   chromeDriverPort
+2020-07-21 12:33:45:161 [Appium] Appium v1.18.0 creating new AndroidUiautomator2Driver (v1.56.1) session
+2020-07-21 12:33:45:161 [Appium] There are no active sessions for cleanup
+2020-07-21 12:33:45:164 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-07-21 12:33:45:164 [BaseDriver] Creating session with W3C capabilities: {
+2020-07-21 12:33:45:164 [BaseDriver]   "alwaysMatch": {
+2020-07-21 12:33:45:164 [BaseDriver]     "appium:chromeDriverPort": "11002",
+2020-07-21 12:33:45:164 [BaseDriver]     "platformName": "android",
+2020-07-21 12:33:45:165 [BaseDriver]     "appium:app": "C:\\xampp\\htdocs\\mobile-automation-framework\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.3.0.apk",
+2020-07-21 12:33:45:165 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2020-07-21 12:33:45:165 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2020-07-21 12:33:45:165 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2020-07-21 12:33:45:165 [BaseDriver]     "appium:deviceName": "Pixel 2 API 29",
+2020-07-21 12:33:45:165 [BaseDriver]     "appium:systemPort": "10002",
+2020-07-21 12:33:45:165 [BaseDriver]     "appium:udid": "emulator-5554"
+2020-07-21 12:33:45:165 [BaseDriver]   },
+2020-07-21 12:33:45:166 [BaseDriver]   "firstMatch": [
+2020-07-21 12:33:45:166 [BaseDriver]     {}
+2020-07-21 12:33:45:166 [BaseDriver]   ]
+2020-07-21 12:33:45:166 [BaseDriver] }
+2020-07-21 12:33:45:168 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2020-07-21 12:33:45:169 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2020-07-21 12:33:45:174 [BaseDriver] Capability 'systemPort' changed from string ('10002') to integer (10002). This may cause unexpected behavior
+2020-07-21 12:33:45:174 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11002') to integer (11002). This may cause unexpected behavior
+2020-07-21 12:33:45:177 [BaseDriver] Session created with session id: 908d0a43-cedb-4c27-aa71-09e52221d027
+2020-07-21 12:33:45:179 [BaseDriver] Using local app 'C:\xampp\htdocs\mobile-automation-framework\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.3.0.apk'
+2020-07-21 12:33:45:180 [UiAutomator2] Checking whether app is actually present
+2020-07-21 12:33:45:198 [ADB] Found 2 'build-tools' folders under 'C:\sdk-tools-windows-4333796' (newest first):
+2020-07-21 12:33:45:198 [ADB]     C:/sdk-tools-windows-4333796/build-tools/29.0.3
+2020-07-21 12:33:45:198 [ADB]     C:/sdk-tools-windows-4333796/build-tools/28.0.3
+2020-07-21 12:33:45:200 [ADB] Using 'adb.exe' from 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe'
+2020-07-21 12:33:45:202 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 start-server'
+2020-07-21 12:33:45:231 [AndroidDriver] Retrieving device list
+2020-07-21 12:33:45:231 [ADB] Trying to find a connected android device
+2020-07-21 12:33:45:232 [ADB] Getting connected devices
+2020-07-21 12:33:45:256 [ADB] No connected devices have been detected
+2020-07-21 12:33:45:256 [ADB] Could not find online devices
+2020-07-21 12:33:45:257 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:45:257 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:45:480 [ADB] Getting connected devices
+2020-07-21 12:33:45:503 [ADB] No connected devices have been detected
+2020-07-21 12:33:45:503 [ADB] Could not find online devices
+2020-07-21 12:33:45:504 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:45:504 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:45:728 [ADB] Getting connected devices
+2020-07-21 12:33:45:750 [ADB] No connected devices have been detected
+2020-07-21 12:33:45:750 [ADB] Could not find online devices
+2020-07-21 12:33:45:750 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:45:750 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:45:972 [ADB] Getting connected devices
+2020-07-21 12:33:45:993 [ADB] No connected devices have been detected
+2020-07-21 12:33:45:993 [ADB] Could not find online devices
+2020-07-21 12:33:45:993 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:45:993 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:46:214 [ADB] Getting connected devices
+2020-07-21 12:33:46:236 [ADB] No connected devices have been detected
+2020-07-21 12:33:46:236 [ADB] Could not find online devices
+2020-07-21 12:33:46:236 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:46:236 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:46:456 [ADB] Getting connected devices
+2020-07-21 12:33:46:478 [ADB] No connected devices have been detected
+2020-07-21 12:33:46:478 [ADB] Could not find online devices
+2020-07-21 12:33:46:479 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:46:479 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:46:700 [ADB] Getting connected devices
+2020-07-21 12:33:46:721 [ADB] No connected devices have been detected
+2020-07-21 12:33:46:721 [ADB] Could not find online devices
+2020-07-21 12:33:46:722 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:46:722 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:46:942 [ADB] Getting connected devices
+2020-07-21 12:33:46:964 [ADB] No connected devices have been detected
+2020-07-21 12:33:46:964 [ADB] Could not find online devices
+2020-07-21 12:33:46:964 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:46:964 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:47:184 [ADB] Getting connected devices
+2020-07-21 12:33:47:206 [ADB] No connected devices have been detected
+2020-07-21 12:33:47:206 [ADB] Could not find online devices
+2020-07-21 12:33:47:206 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:47:207 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:47:428 [ADB] Getting connected devices
+2020-07-21 12:33:47:449 [ADB] No connected devices have been detected
+2020-07-21 12:33:47:449 [ADB] Could not find online devices
+2020-07-21 12:33:47:449 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:47:450 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:47:673 [ADB] Getting connected devices
+2020-07-21 12:33:47:696 [ADB] No connected devices have been detected
+2020-07-21 12:33:47:696 [ADB] Could not find online devices
+2020-07-21 12:33:47:696 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:47:696 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:47:917 [ADB] Getting connected devices
+2020-07-21 12:33:47:939 [ADB] No connected devices have been detected
+2020-07-21 12:33:47:940 [ADB] Could not find online devices
+2020-07-21 12:33:47:940 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:47:940 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:48:161 [ADB] Getting connected devices
+2020-07-21 12:33:48:183 [ADB] No connected devices have been detected
+2020-07-21 12:33:48:183 [ADB] Could not find online devices
+2020-07-21 12:33:48:183 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:48:184 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:48:404 [ADB] Getting connected devices
+2020-07-21 12:33:48:426 [ADB] No connected devices have been detected
+2020-07-21 12:33:48:426 [ADB] Could not find online devices
+2020-07-21 12:33:48:426 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:48:427 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:48:647 [ADB] Getting connected devices
+2020-07-21 12:33:48:671 [ADB] No connected devices have been detected
+2020-07-21 12:33:48:672 [ADB] Could not find online devices
+2020-07-21 12:33:48:672 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:48:672 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:48:893 [ADB] Getting connected devices
+2020-07-21 12:33:48:915 [ADB] No connected devices have been detected
+2020-07-21 12:33:48:915 [ADB] Could not find online devices
+2020-07-21 12:33:48:915 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:48:915 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:49:135 [ADB] Getting connected devices
+2020-07-21 12:33:49:157 [ADB] No connected devices have been detected
+2020-07-21 12:33:49:157 [ADB] Could not find online devices
+2020-07-21 12:33:49:157 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:49:157 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:49:380 [ADB] Getting connected devices
+2020-07-21 12:33:49:401 [ADB] No connected devices have been detected
+2020-07-21 12:33:49:402 [ADB] Could not find online devices
+2020-07-21 12:33:49:402 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:49:402 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:49:625 [ADB] Getting connected devices
+2020-07-21 12:33:49:646 [ADB] No connected devices have been detected
+2020-07-21 12:33:49:646 [ADB] Could not find online devices
+2020-07-21 12:33:49:646 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:49:647 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:49:868 [ADB] Getting connected devices
+2020-07-21 12:33:49:889 [ADB] No connected devices have been detected
+2020-07-21 12:33:49:890 [ADB] Could not find online devices
+2020-07-21 12:33:49:890 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:49:890 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:50:111 [ADB] Getting connected devices
+2020-07-21 12:33:50:134 [ADB] No connected devices have been detected
+2020-07-21 12:33:50:135 [ADB] Could not find online devices
+2020-07-21 12:33:50:135 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:50:135 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:50:355 [ADB] Getting connected devices
+2020-07-21 12:33:50:378 [ADB] No connected devices have been detected
+2020-07-21 12:33:50:378 [ADB] Could not find online devices
+2020-07-21 12:33:50:378 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:50:378 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:50:598 [ADB] Getting connected devices
+2020-07-21 12:33:50:620 [ADB] No connected devices have been detected
+2020-07-21 12:33:50:620 [ADB] Could not find online devices
+2020-07-21 12:33:50:621 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:50:621 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:50:842 [ADB] Getting connected devices
+2020-07-21 12:33:50:864 [ADB] No connected devices have been detected
+2020-07-21 12:33:50:864 [ADB] Could not find online devices
+2020-07-21 12:33:50:864 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:50:865 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:51:086 [ADB] Getting connected devices
+2020-07-21 12:33:51:107 [ADB] No connected devices have been detected
+2020-07-21 12:33:51:108 [ADB] Could not find online devices
+2020-07-21 12:33:51:108 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:51:108 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:51:336 [ADB] Getting connected devices
+2020-07-21 12:33:52:193 [ADB] No connected devices have been detected
+2020-07-21 12:33:52:194 [ADB] Could not find online devices
+2020-07-21 12:33:52:194 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:52:194 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:52:415 [ADB] Getting connected devices
+2020-07-21 12:33:52:438 [ADB] No connected devices have been detected
+2020-07-21 12:33:52:438 [ADB] Could not find online devices
+2020-07-21 12:33:52:438 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:52:438 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:52:659 [ADB] Getting connected devices
+2020-07-21 12:33:52:861 [ADB] No connected devices have been detected
+2020-07-21 12:33:52:861 [ADB] Could not find online devices
+2020-07-21 12:33:52:861 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:52:861 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:54:342 [ADB] Getting connected devices
+2020-07-21 12:33:54:364 [ADB] No connected devices have been detected
+2020-07-21 12:33:54:364 [ADB] Could not find online devices
+2020-07-21 12:33:54:364 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:54:364 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:54:585 [ADB] Getting connected devices
+2020-07-21 12:33:54:607 [ADB] No connected devices have been detected
+2020-07-21 12:33:54:607 [ADB] Could not find online devices
+2020-07-21 12:33:54:608 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:54:608 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:54:827 [ADB] Getting connected devices
+2020-07-21 12:33:54:849 [ADB] No connected devices have been detected
+2020-07-21 12:33:54:850 [ADB] Could not find online devices
+2020-07-21 12:33:54:850 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:54:850 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:55:070 [ADB] Getting connected devices
+2020-07-21 12:33:55:953 [ADB] No connected devices have been detected
+2020-07-21 12:33:55:954 [ADB] Could not find online devices
+2020-07-21 12:33:55:954 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:55:954 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:56:175 [ADB] Getting connected devices
+2020-07-21 12:33:57:009 [ADB] No connected devices have been detected
+2020-07-21 12:33:57:009 [ADB] Could not find online devices
+2020-07-21 12:33:57:009 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:57:009 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:57:229 [ADB] Getting connected devices
+2020-07-21 12:33:58:046 [ADB] No connected devices have been detected
+2020-07-21 12:33:58:046 [ADB] Could not find online devices
+2020-07-21 12:33:58:046 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:58:046 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:58:265 [ADB] Getting connected devices
+2020-07-21 12:33:58:298 [ADB] No connected devices have been detected
+2020-07-21 12:33:58:298 [ADB] Could not find online devices
+2020-07-21 12:33:58:298 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:58:298 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:58:519 [ADB] Getting connected devices
+2020-07-21 12:33:58:539 [ADB] No connected devices have been detected
+2020-07-21 12:33:58:539 [ADB] Could not find online devices
+2020-07-21 12:33:58:539 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:58:539 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:58:760 [ADB] Getting connected devices
+2020-07-21 12:33:58:780 [ADB] No connected devices have been detected
+2020-07-21 12:33:58:780 [ADB] Could not find online devices
+2020-07-21 12:33:58:780 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:58:781 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:59:001 [ADB] Getting connected devices
+2020-07-21 12:33:59:022 [ADB] No connected devices have been detected
+2020-07-21 12:33:59:022 [ADB] Could not find online devices
+2020-07-21 12:33:59:022 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:59:022 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:59:242 [ADB] Getting connected devices
+2020-07-21 12:33:59:263 [ADB] No connected devices have been detected
+2020-07-21 12:33:59:263 [ADB] Could not find online devices
+2020-07-21 12:33:59:263 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:59:264 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:59:485 [ADB] Getting connected devices
+2020-07-21 12:33:59:506 [ADB] No connected devices have been detected
+2020-07-21 12:33:59:506 [ADB] Could not find online devices
+2020-07-21 12:33:59:506 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:59:506 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:59:729 [ADB] Getting connected devices
+2020-07-21 12:33:59:753 [ADB] No connected devices have been detected
+2020-07-21 12:33:59:756 [ADB] Could not find online devices
+2020-07-21 12:33:59:756 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:33:59:756 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:33:59:979 [ADB] Getting connected devices
+2020-07-21 12:33:59:999 [ADB] No connected devices have been detected
+2020-07-21 12:34:00:000 [ADB] Could not find online devices
+2020-07-21 12:34:00:000 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:00:000 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:00:221 [ADB] Getting connected devices
+2020-07-21 12:34:00:242 [ADB] No connected devices have been detected
+2020-07-21 12:34:00:242 [ADB] Could not find online devices
+2020-07-21 12:34:00:242 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:00:242 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:00:462 [ADB] Getting connected devices
+2020-07-21 12:34:00:485 [ADB] No connected devices have been detected
+2020-07-21 12:34:00:485 [ADB] Could not find online devices
+2020-07-21 12:34:00:485 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:00:485 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:00:705 [ADB] Getting connected devices
+2020-07-21 12:34:00:725 [ADB] No connected devices have been detected
+2020-07-21 12:34:00:726 [ADB] Could not find online devices
+2020-07-21 12:34:00:726 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:00:726 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:00:946 [ADB] Getting connected devices
+2020-07-21 12:34:00:970 [ADB] No connected devices have been detected
+2020-07-21 12:34:00:970 [ADB] Could not find online devices
+2020-07-21 12:34:00:970 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:00:970 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:01:190 [ADB] Getting connected devices
+2020-07-21 12:34:01:210 [ADB] No connected devices have been detected
+2020-07-21 12:34:01:211 [ADB] Could not find online devices
+2020-07-21 12:34:01:211 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:01:211 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:01:432 [ADB] Getting connected devices
+2020-07-21 12:34:01:455 [ADB] No connected devices have been detected
+2020-07-21 12:34:01:456 [ADB] Could not find online devices
+2020-07-21 12:34:01:456 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:01:456 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:01:676 [ADB] Getting connected devices
+2020-07-21 12:34:01:699 [ADB] No connected devices have been detected
+2020-07-21 12:34:01:699 [ADB] Could not find online devices
+2020-07-21 12:34:01:699 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:01:699 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:01:921 [ADB] Getting connected devices
+2020-07-21 12:34:01:941 [ADB] No connected devices have been detected
+2020-07-21 12:34:01:941 [ADB] Could not find online devices
+2020-07-21 12:34:01:942 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:01:942 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:02:163 [ADB] Getting connected devices
+2020-07-21 12:34:02:183 [ADB] No connected devices have been detected
+2020-07-21 12:34:02:184 [ADB] Could not find online devices
+2020-07-21 12:34:02:184 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:02:184 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:02:404 [ADB] Getting connected devices
+2020-07-21 12:34:02:425 [ADB] No connected devices have been detected
+2020-07-21 12:34:02:425 [ADB] Could not find online devices
+2020-07-21 12:34:02:425 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:02:425 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:02:646 [ADB] Getting connected devices
+2020-07-21 12:34:02:667 [ADB] No connected devices have been detected
+2020-07-21 12:34:02:667 [ADB] Could not find online devices
+2020-07-21 12:34:02:667 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:02:667 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:02:888 [ADB] Getting connected devices
+2020-07-21 12:34:02:908 [ADB] No connected devices have been detected
+2020-07-21 12:34:02:908 [ADB] Could not find online devices
+2020-07-21 12:34:02:909 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:02:909 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:03:129 [ADB] Getting connected devices
+2020-07-21 12:34:03:149 [ADB] No connected devices have been detected
+2020-07-21 12:34:03:149 [ADB] Could not find online devices
+2020-07-21 12:34:03:150 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:03:150 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:03:371 [ADB] Getting connected devices
+2020-07-21 12:34:03:392 [ADB] No connected devices have been detected
+2020-07-21 12:34:03:393 [ADB] Could not find online devices
+2020-07-21 12:34:03:393 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:03:393 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:03:612 [ADB] Getting connected devices
+2020-07-21 12:34:03:633 [ADB] No connected devices have been detected
+2020-07-21 12:34:03:633 [ADB] Could not find online devices
+2020-07-21 12:34:03:633 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:03:634 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:03:855 [ADB] Getting connected devices
+2020-07-21 12:34:03:875 [ADB] No connected devices have been detected
+2020-07-21 12:34:03:875 [ADB] Could not find online devices
+2020-07-21 12:34:03:876 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:03:876 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:04:096 [ADB] Getting connected devices
+2020-07-21 12:34:04:119 [ADB] No connected devices have been detected
+2020-07-21 12:34:04:119 [ADB] Could not find online devices
+2020-07-21 12:34:04:119 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:04:119 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:04:339 [ADB] Getting connected devices
+2020-07-21 12:34:04:362 [ADB] No connected devices have been detected
+2020-07-21 12:34:04:362 [ADB] Could not find online devices
+2020-07-21 12:34:04:362 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:04:362 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:04:582 [ADB] Getting connected devices
+2020-07-21 12:34:04:602 [ADB] No connected devices have been detected
+2020-07-21 12:34:04:603 [ADB] Could not find online devices
+2020-07-21 12:34:04:603 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:04:603 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:04:822 [ADB] Getting connected devices
+2020-07-21 12:34:04:844 [ADB] No connected devices have been detected
+2020-07-21 12:34:04:844 [ADB] Could not find online devices
+2020-07-21 12:34:04:844 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:04:844 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:05:065 [ADB] Getting connected devices
+2020-07-21 12:34:05:087 [ADB] No connected devices have been detected
+2020-07-21 12:34:05:087 [ADB] Could not find online devices
+2020-07-21 12:34:05:087 [ADB] Reconnecting adb (target offline)
+2020-07-21 12:34:05:087 [ADB] Running 'C:\sdk-tools-windows-4333796\platform-tools\adb.exe -P 5037 reconnect offline'
+2020-07-21 12:34:05:307 [UiAutomator2] Deleting UiAutomator2 session
+2020-07-21 12:34:05:308 [BaseDriver] Event 'newSessionStarted' logged at 1595334845308 (20:34:05 GMT+0800 (Philippine Standard Time))
+2020-07-21 12:34:05:342 [W3C] Encountered internal error running command: Error: Could not find a connected Android device in 20075ms.
+2020-07-21 12:34:05:342 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:267:13)
+2020-07-21 12:34:05:342 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:18)
+2020-07-21 12:34:05:342 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:342 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:342 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:342 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:342 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:342 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:343 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:343 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:343 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:343 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:343 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:343 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:343 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:343 [W3C]     at getDevices (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:284:12)
+2020-07-21 12:34:05:375 [W3C] Destroying socket connection
+2020-07-21 12:34:05:377 [HTTP] <-- POST /wd/hub/session 500 20412 ms - 667
+2020-07-21 12:34:05:377 [HTTP] 
