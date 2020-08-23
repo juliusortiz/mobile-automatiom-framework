@@ -1,0 +1,22 @@
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:27.959 ServerManager:20 - starting appium server
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:29.725 ServerManager:29 - Appium server started
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:29.744 DriverManager:28 - initializing Appium driver
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:29.760 PropertyManager:17 - loading config properties
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:29.761 CapabilitiesManager:18 - getting capabilities
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:29.762 CapabilitiesManager:34 - appUrl isC:\Users\julius.ortiz\IdeaProjects\mobile-automation-framework\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.3.0.apk
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:47.542 DriverManager:40 - Driver is initialized
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:52.463 BasePage:71 - login with invalidUsername
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:54.471 BasePage:71 - password is secret_sauce
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:55.709 BasePage:54 - press login button
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:24:57.519 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:00.249 VideoManager:35 - video path: Android_Saturn1000_Elite\Videos\Login with invalid user name.mp4
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:02.044 BasePage:71 - login with standard_user
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:03.956 BasePage:71 - password is invalidPassword
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:04.752 BasePage:54 - press login button
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:06.018 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:08.900 VideoManager:35 - video path: Android_Saturn1000_Elite\Videos\Login with invalid password.mp4
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:10.621 BasePage:71 - login with standard_user
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:12.098 BasePage:71 - password is secret_sauce
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:13.319 BasePage:54 - press login button
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:17.202 BasePage:97 - product page title is - PRODUCTS
+[Android_Saturn1000_Elite INFO ] 2020-08-23 11:25:20.021 VideoManager:35 - video path: Android_Saturn1000_Elite\Videos\Login with valid user name and password.mp4

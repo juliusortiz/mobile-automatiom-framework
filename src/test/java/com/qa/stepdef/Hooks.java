@@ -16,13 +16,13 @@ public class Hooks {
 
     @Before
     public void initialize() throws Exception {
-/*        GlobalParams params = new GlobalParams();
+        /*GlobalParams params = new GlobalParams();
         params.initializeGlobalParams();
         ThreadContext.put("ROUTINGKEY", params.getPlatformName() + "_"
                 + params.getDeviceName());
         new ServerManager().startServer();
         new DriverManager().initializeDriver();*/
-        //new VideoManager().startRecording();
+        new VideoManager().startRecording();
     }
 
     @After
@@ -32,8 +32,8 @@ public class Hooks {
             scenario.embed(screenshot, "image/png", scenario.getName());
         }
 
-        //new VideoManager().stopRecording(scenario.getName());
-/*        DriverManager driverManager = new DriverManager();
+        new VideoManager().stopRecording(scenario.getName());
+        /*DriverManager driverManager = new DriverManager();
         if(driverManager.getDriver() != null){
             driverManager.getDriver().quit();
             driverManager.setDriver(null);
