@@ -1,0 +1,19 @@
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:36:54.557 ServerManager:20 - starting appium server
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:36:56.707 ServerManager:29 - Appium server started
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:36:56.740 DriverManager:28 - initializing Appium driver
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:36:56.763 PropertyManager:17 - loading config properties
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:36:56.764 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:36:56.767 CapabilitiesManager:34 - appUrl isC:\Users\julius.ortiz\IdeaProjects\mobile-automation-framework\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.3.0.apk
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:04.102 DriverManager:40 - Driver is initialized
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:05.867 BasePage:71 - login with invalidUsername
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:07.550 BasePage:71 - password is secret_sauce
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:08.637 BasePage:54 - press login button
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:09.503 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:10.266 BasePage:71 - login with standard_user
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:11.931 BasePage:71 - password is invalidPassword
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:13.039 BasePage:54 - press login button
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:13.252 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:14.035 BasePage:71 - login with standard_user
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:15.712 BasePage:71 - password is secret_sauce
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:16.786 BasePage:54 - press login button
+[Android_Pixel_2_API_25 INFO ] 2020-08-24 12:37:18.158 BasePage:97 - product page title is - PRODUCTS

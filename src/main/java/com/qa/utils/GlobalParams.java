@@ -68,8 +68,8 @@ public class GlobalParams {
     public void initializeGlobalParams(){
         GlobalParams params = new GlobalParams();
         params.setPlatformName(System.getProperty("platformName", "Android"));
-        params.setUDID(System.getProperty("udid", "000150194008952"));
-        params.setDeviceName(System.getProperty("Saturn1000_Elite", "Saturn1000_Elite"));
+        params.setUDID(System.getProperty("udid", "emulator-5554"));
+        params.setDeviceName(System.getProperty("deviceName", "Pixel_2_API_25"));
 
         switch(params.getPlatformName()){
             case "Android":
