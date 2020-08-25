@@ -17,9 +17,7 @@ public class GlobalParams {
         return platformName.get();
     }
 
-    public String getUDID() {
-        return udid.get();
-    }
+    public String getUDID() { return udid.get(); }
 
     public void setUDID(String udid2) {
         udid.set(udid2);
@@ -61,9 +59,7 @@ public class GlobalParams {
         return webkitDebugProxyPort.get();
     }
 
-    public void setWebkitDebugProxyPort(String webkitDebugProxyPort2) {
-        webkitDebugProxyPort.set(webkitDebugProxyPort2);
-    }
+    public void setWebkitDebugProxyPort(String webkitDebugProxyPort2) { webkitDebugProxyPort.set(webkitDebugProxyPort2); }
 
     public void initializeGlobalParams(){
         GlobalParams params = new GlobalParams();
